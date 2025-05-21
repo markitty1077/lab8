@@ -37,15 +37,5 @@ jobs:
 
       - name: Create a Job Summary as "Exploring Workflow Commands :thumbsup:"
         run: |
-          echo "### Awesome Job Summary :rocket:" >> $GITHUB_STEP_SUMMARY
-          echo "## Used Workflow Commands" >> $GITHUB_STEP_SUMMARY
-          echo "- Debug" >> $GITHUB_STEP_SUMMARY 
-          echo "- Mask" >> $GITHUB_STEP_SUMMARY
-          echo "- Output" >> $GITHUB_STEP_SUMMARY
-          echo "- Variable" >> $GITHUB_STEP_SUMMARY
-          echo "- Annotations" >> $GITHUB_STEP_SUMMARY
-          echo "- Logs" >> $GITHUB_STEP_SUMMARY
-          echo "- Groups" >> $GITHUB_STEP_SUMMARY
-          echo "- Variable from previous step: $foo" >> $GITHUB_STEP_SUMMARY
-          echo "- Secret Key from previous step: $api_key" >> $GITHUB_STEP_SUMMARY
-          echo "- Output from previous step: ${{ steps.lucky_number_step.outputs.LUCKY_NUMBER }}" >> $GITHUB_STEP_SUMMARY
+          echo "Exploring Workflow Commands :thumbsup:" >> $GITHUB_STEP_SUMMARY
+
